@@ -3,14 +3,14 @@ import dotenv from 'dotenv'
 dotenv.config()
 
 const pool = mysql.createPool({
-    // host:process.env.MYSQL_HOST,
-    // user:process.env.MYSQL_USER,   
-    // password:process.env.MYSQL_PASSWORD,
-    // database:process.env.MYSQL_DATABASE
-    host:'database-2-instance-1.cmrmnvkjyzzf.us-east-2.rds.amazonaws.com',
-    user:'admin',
-    password:'beactive',
-    database:'sys',
+    host:process.env.MYSQL_HOST,
+    user:process.env.MYSQL_USER,   
+    password:process.env.MYSQL_PASSWORD,
+    database:process.env.MYSQL_DATABASE
+    // host:'database-2-instance-1.cmrmnvkjyzzf.us-east-2.rds.amazonaws.com',
+    // user:'admin',
+    // password:'beactive',
+    // database:'sys',
 
 
 
